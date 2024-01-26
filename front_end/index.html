@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--The content of the this div stays constant -->
+    <div class="navBar">
+        <div class="title">
+            <h1> <a href="">CPSC 304 SPORTS DATABASE</a> </h1>
+        </div>
+
+        <div class="navbar">
+            <a href="#PLAYERS">PLAYERS</a>
+            <a href="#TEAMS">TEAMS</a>
+
+            <div class="dropdown">
+              <button class="dropbtn" >LEAGUES 🞃
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+
+
+                <div class="has-submenu">
+                  <a href="#">League 1</a>
+                  <ul class='submenu'>  
+                    <li><a href="#" title="Sub Menu">Season 1.1</a></li>
+                    <li><a href="#" title="Sub Menu">Season 1.2</a></li>
+                    <li><a href="#" title="Sub Menu">Season 1.3</a></li>
+                  </ul>
+                </div>
+                
+                <div class="has-submenu">
+                  <a href="#">League 2</a>
+                  <ul class='submenu'>
+                    <li><a href="#" title="Sub Menu">Season 2.1</a></li>
+                    <li><a href="#" title="Sub Menu">Season 2.2</a></li>
+                    <li><a href="#" title="Sub Menu">Season 2.3</a></li>
+                  </ul>
+                </div>
+
+                <div class="has-submenu">
+                  <a href="#">League 3</a>
+                  <ul class='submenu'>
+                    <li><a href="#" title="Sub Menu">Season 3.1</a></li>
+                    <li><a href="#" title="Sub Menu">Season 3.2</a></li>
+                    <li><a href="#" title="Sub Menu">Season 3.3</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">NEWS 🞃
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Publisher 1</a>
+                <a href="#">Publisher 2</a>
+                <a href="#">Publisher 3</a>
+              </div>
+            </div>
+
+
+
+            <!-- <div class="dropdown">
+              <button class="dropbtn">SEASON 🞃
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">season 1</a>
+                <a href="#">season 2</a>
+                <a href="#">season 3</a>
+              </div>
+            </div> -->
+
+            <input class="searchBar" type="text" placeholder="Search..">
+          </div> 
+          
+
+    </div>
+
+    <!-- The content of the this div changes when the user chooses a differnet page from the navbar -->
+    <div class="content"></div>
+    
+</body>
+</html>
