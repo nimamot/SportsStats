@@ -13,6 +13,7 @@ Welcome to the SportsStats GitHub repository! This project is dedicated to provi
 - **PHP**: For backend development.
 - **CSS**: For styling and layout enhancements.
 - **HTML**: For structuring the web content.
+- **Oracle**: For robust and scalable data management 
 
 ## Getting Started
 
